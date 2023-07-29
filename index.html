@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rickroll Website</title>
+</head>
+<body>
+  <div style="text-align: center; margin-top: 50px;">
+    <button onclick="showRickroll()">Click Me!</button>
+  </div>
+
+  <div id="rickrollVideo" style="display: none; text-align: center;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <script>
+    function showRickroll() {
+      var videoDiv = document.getElementById('rickrollVideo');
+      videoDiv.style.display = 'block';
+    }
+  </script>
+</body>
+</html>
